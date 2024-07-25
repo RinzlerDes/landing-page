@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.header-top,
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px 100px;
+}
+
+
+.intro-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro-left {
+    flex-direction: column;
+    align-items: start;
+    flex: 1;
+    flex-basis: 300px;
+    gap: 20px;
+}
+
+.info {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 50px;
+}
+
+.items {
+    display: flex;
+    gap: 30px;
+}
+
+.item {
+    text-align: center;
+
+}
+
+.quote {
+    background-color: rgb(65, 244, 220);
+    padding: 30px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    flex-basis: 500px;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    flex: 1;
+    max-width: 800px;
+    border: 100px solid white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 120px;
+}
+
+.blue-box .left {
+    flex-basis: 300px;
+}
+
+.footer {
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100px;
+    background-color: navy;
+    color: white;
+    font-size: 30px;
+}
+
+.me {
+    width: 300px;
+    border-radius: 50px;
+}
+
+.eden {
+    max-width: 300px;
+}
+
+.white {
+    color: white;
+}
+
+.item img {
+    width: 200px;
+    flex: 1;
+    
+}
+
+.page-width {
+    flex-basis: 800px;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    width: 100px;
+    border-radius: 8px;
+    padding: 3px;
+}
